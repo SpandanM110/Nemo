@@ -1,0 +1,72 @@
+.note-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1em;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 29px 100px;
+  font-family: 'PressStart2P', sans-serif;
+  z-index: 1000;
+  background-color: rgba(81, 37, 37, 0.85);
+  border-radius: 25px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.note-container:hover {
+  transform: translate(-50%, -50%) scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 70%;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: #fff;
+  font-family: 'PressStart2P', sans-serif;
+  color: #773232;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #773232;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  white-space: nowrap;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  background-color: rgba(47, 23, 23, 0.48);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(246, 246, 246, 0.452);
+}
+
+li button {
+  background-color: rgba(118, 36, 36, 0.7);
+  border: 1px solid #000;
+  color: #000;
+  border-radius: 10px;
+  cursor: pointer;
+}
